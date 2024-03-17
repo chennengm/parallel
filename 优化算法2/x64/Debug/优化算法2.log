@@ -1,0 +1,3 @@
+﻿  优化算法2.cpp
+D:\cpp\优化算法2\优化算法2.cpp(28,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  优化算法2.vcxproj -> D:\cpp\优化算法2\x64\Debug\优化算法2.exe
