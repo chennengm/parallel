@@ -1,0 +1,100 @@
+89 [27836] INFO perfrun.launcher <> - Launcher main begin
+96 [27836] INFO perfrun.launcher <> - MessageCatalogInit finished
+96 [27836] INFO perfrun.launcher <> - Launcher instance created
+96 [27836] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 980 --option-file D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\config\runsa.options 
+126 [27836] INFO perfrun.launcher <> - New signal handler callback was added
+205 [27836] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+205 [27836] INFO perfrun.launcher <> - create file finder object
+206 [27836] INFO perfrun.launcher <> - create a result directory: pattern = D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15 pid = 4294967295
+209 [27836] INFO perfrun.launcher <> - create data directory = D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0
+210 [27836] INFO perfrun.launcher <> - Creating the master collection flag
+216 [27836] INFO perfrun.launcher <> - Done creating the master collection flag
+216 [23460] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+216 [23460] INFO perfrun.sdk <> - Allocating TMU :D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0\systemcollector-26320-guoxiaoyu.sc
+217 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+219 [23460] INFO perfrun.mrte <> - system-wide mode is 0
+219 [23460] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+273 [23460] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0
+273 [23460] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=guoxiaoyu
+273 [23460] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+273 [23460] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;E:\tools\bingxing\mpi\Bin\;E:\Program Files (x86)\VMware\VMware Workstation\bin\;E:\tools\Javaup\01JDK\Java\jdk-17.0.1\bin;E:\Javaup\01JDK\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\mysql download\bin;E:\tools\bingxing\bin;E:\tools\bingxing\gcc\bin;E:\tools\bingxing\xshell\;E:\anaconda;E:\anaconda\Library\mingw-w64\bin;E:\anaconda\Library\usr\bin;E:\anaconda\Library\bin;E:\anaconda\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;E:\$RECYCLE.BIN\新建文件夹\PyCharm Community Edition 2022.3.3\bin;E:\新建文件夹\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;E:\idea3.3\IntelliJ IDEA 2023.3.3\bin
+273 [23460] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+273 [23460] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+273 [23460] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+273 [23460] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+273 [23460] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+273 [23460] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+273 [23460] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+273 [23460] INFO perfrun.mrte <> - Data directory: D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0
+273 [23460] INFO perfrun.mrte <> - Mrte plugin is initialized
+273 [23460] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+274 [23460] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+274 [23460] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+274 [23460] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.DISTRIBUTED:sa=2000003:precise=yes,CPU_CLK_UNHALTED.REF_TSC:sa=3200000:precise=yes,CPU_CLK_UNHALTED.THREAD:sa=2000003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=100003:precise=yes,INST_RETIRED.ANY:sa=3200000:precise=yes,TOPDOWN.SLOTS:sa=2000003:precise=yes,UOPS_EXECUTED.THREAD:sa=2000003:precise=yes,UOPS_EXECUTED.X87:sa=2000003:precise=yes,UOPS_RETIRED.SLOTS:sa=2000003:precise=yes,MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes -experimental
+278 [23460] INFO perfrun.sdk <> - runCmd started PID 26348
+402 [23460] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.tpss <> - initialize tpss controller
+402 [23460] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+402 [23460] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+402 [27836] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;E:\tools\bingxing\mpi\Bin\;E:\Program Files (x86)\VMware\VMware Workstation\bin\;E:\tools\Javaup\01JDK\Java\jdk-17.0.1\bin;E:\Javaup\01JDK\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\mysql download\bin;E:\tools\bingxing\bin;E:\tools\bingxing\gcc\bin;E:\tools\bingxing\xshell\;E:\anaconda;E:\anaconda\Library\mingw-w64\bin;E:\anaconda\Library\usr\bin;E:\anaconda\Library\bin;E:\anaconda\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;E:\$RECYCLE.BIN\新建文件夹\PyCharm Community Edition 2022.3.3\bin;E:\新建文件夹\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;E:\idea3.3\IntelliJ IDEA 2023.3.3\bin
+402 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+402 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+402 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+403 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime\ittnotify_collector.dll
+403 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime\ittnotify_collector.dll
+403 [27836] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+403 [27836] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+403 [27836] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+403 [27836] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+403 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0
+403 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = guoxiaoyu
+403 [27836] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+403 [27836] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\runtime;E:\tools\bingxing\mpi\Bin\;E:\Program Files (x86)\VMware\VMware Workstation\bin\;E:\tools\Javaup\01JDK\Java\jdk-17.0.1\bin;E:\Javaup\01JDK\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\nodejs\;C:\ProgramData\chocolatey\bin;E:\mysql download\bin;E:\tools\bingxing\bin;E:\tools\bingxing\gcc\bin;E:\tools\bingxing\xshell\;E:\anaconda;E:\anaconda\Library\mingw-w64\bin;E:\anaconda\Library\usr\bin;E:\anaconda\Library\bin;E:\anaconda\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;E:\$RECYCLE.BIN\新建文件夹\PyCharm Community Edition 2022.3.3\bin;E:\新建文件夹\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;E:\idea3.3\IntelliJ IDEA 2023.3.3\bin
+403 [27836] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+403 [27836] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+403 [27836] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+403 [27836] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+403 [27836] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+403 [27836] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+404 [27836] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+404 [27836] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+409 [27836] INFO perfrun.sdk <> - IProcessUtil: the given executable 'D:\cpp\优化算法2\Debug\优化算法2.exe' is valid.
+409 [27836] INFO perfrun.launcher <> - Launcher: command line to start before modification = D:\cpp\优化算法2\Debug\优化算法2.exe
+409 [27836] INFO perfrun.launcher <> - Launcher: command line to start after modification = D:\cpp\优化算法2\Debug\优化算法2.exe
+410 [27836] INFO perfrun.launcher <> - ProcessCreator object was created
+412 [27836] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+419 [23460] INFO perfrun.itt <> - start itt controller for pid #28280
+420 [23460] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\sep.exe" -start -experimental -uem timer=10 -em trigger=CPU_CLK_UNHALTED.REF_TSC factor=5 -ebc -out "D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0\sep5ba4.20240317T181357.784550" -ec INST_RETIRED.ANY:sa=3200000:precise=yes,CPU_CLK_UNHALTED.THREAD:sa=2000003:precise=yes,CPU_CLK_UNHALTED.REF_TSC:sa=3200000:precise=yes,TOPDOWN.SLOTS:sa=2000003:precise=yes,MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2000003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=100003:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=100003:precise=yes,UOPS_EXECUTED.THREAD:sa=2000003:precise=yes,UOPS_EXECUTED.X87:sa=2000003:precise=yes,UOPS_RETIRED.SLOTS:sa=2000003:precise=yes, -d 0 -uem factor=10
+423 [23460] INFO perfrun.sdk <> - runCmd started PID 21004
+30760 [23460] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0\bin64\sep.exe" -start -d 1 -experimental -uem timer=10 -em trigger=CPU_CLK_UNHALTED.REF_TSC factor=5 -ebc -out "D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0\sep5ba4.20240317T181357.784550" -ec INST_RETIRED.ANY:sa=3200000:precise=yes,CPU_CLK_UNHALTED.THREAD:sa=2000003:precise=yes,CPU_CLK_UNHALTED.REF_TSC:sa=3200000:precise=yes,TOPDOWN.SLOTS:sa=2000003:precise=yes,MEM_LOAD_RETIRED.L1_HIT:sa=1000003:precise=yes,MEM_LOAD_RETIRED.L1_MISS:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_HIT:sa=200003:precise=yes,MEM_LOAD_RETIRED.L2_MISS:sa=100021:precise=yes,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2000003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=100003:precise=yes,MEM_LOAD_RETIRED.L3_HIT:sa=100021:precise=yes,MEM_LOAD_RETIRED.L3_MISS:sa=50021:precise=yes,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=100003:precise=yes,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=100003:precise=yes,UOPS_EXECUTED.THREAD:sa=2000003:precise=yes,UOPS_EXECUTED.X87:sa=2000003:precise=yes,UOPS_RETIRED.SLOTS:sa=2000003:precise=yes,
+30769 [23460] INFO perfrun.sdk <> - runCmd started PID 2396
+30853 [23460] WARN perfrun.sdk <> - Unexpected exit status - 150, at file: vcs\perfrun1\sdk\src\utils_win.cpp:541
+30854 [23460] INFO perfrun.sepdk <> - WARNING: Windows Defender Antivirus may interfere PMU counter accesses which can fail to collect data in the collection. Please turn off Real Time Protection toggle switch and re-run the collection. Refer to SEP User Guide for more details.
+PMU resource(s) currently being used by another profiling tool or process: 	another PMU collection session may be running
+
+30854 [23460] ERROR perfrun.launcher <> - Messenger::say: WARNING: Windows Defender Antivirus may interfere PMU counter accesses which can fail to collect data in the collection. Please turn off Real Time Protection toggle switch and re-run the collection. Refer to SEP User Guide for more details.
+PMU resource(s) currently being used by another profiling tool or process: 	another PMU collection session may be running
+
+30854 [23460] ERROR perfrun.launcher <> - sep can not perform an operation and will be disabled., at file: vcs\perfrun1\launcher\src/plugin_manager_impl.hpp:422
+30859 [23460] INFO perfrun.itt <> - detach itt controller
+30859 [23460] INFO perfrun.itt <> - detach itt controller done
+30859 [23460] INFO perfrun.sdk <> - De-allocating TMU: D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0\systemcollector-26320-guoxiaoyu.sc
+30870 [23460] INFO perfrun.system <> - closed the system trace file: D:\cpp\平凡算法1\Intel® VTune™ Profiler Results\平凡算法1\r000hs15\data.0\systemcollector-26320-guoxiaoyu.sc
+30871 [27836] WARN perfrun.launcher <> - IMessenger: ignore empty message with severity = 8, at file: vcs\perfrun1\launcher\src\messenger_impl.cpp:75
+30871 [27836] INFO perfrun.launcher <> - Application exit code: 0
+30871 [27836] INFO perfrun.launcher <> - Exit code: 2
